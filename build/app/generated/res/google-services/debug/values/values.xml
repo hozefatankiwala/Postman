@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">105920618944-gto8vd6vk1pc3r4mej8krngs382i382d.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://postman-998dc.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">105920618944</string>
+    <string name="google_api_key" translatable="false">AIzaSyAlxAonsFJ5PnFyNLPZ3CuVcQPfK4-2Yls</string>
+    <string name="google_app_id" translatable="false">1:105920618944:android:377497342a74ea4a25e825</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAlxAonsFJ5PnFyNLPZ3CuVcQPfK4-2Yls</string>
+    <string name="google_storage_bucket" translatable="false">postman-998dc.appspot.com</string>
+    <string name="project_id" translatable="false">postman-998dc</string>
+</resources>

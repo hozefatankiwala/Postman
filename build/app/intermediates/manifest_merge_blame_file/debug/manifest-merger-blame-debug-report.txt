@@ -1,0 +1,350 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.postman2"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->[:image_picker] C:\Users\huzze\AndroidStudioProjects\postman2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+15-->[:image_picker] C:\Users\huzze\AndroidStudioProjects\postman2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:image_picker] C:\Users\huzze\AndroidStudioProjects\postman2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+16-->[:image_picker] C:\Users\huzze\AndroidStudioProjects\postman2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:22:5-79
+17-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:22:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:24:5-68
+18-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+19-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+20    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+21    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+22    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+23    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+24    <!-- for Samsung -->
+25    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+25-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+25-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+26    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+26-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+26-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+27    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+27-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+27-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+28    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+28-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+28-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+29    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+29-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+29-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+30    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+30-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+30-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+31    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+31-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+31-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+32    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+32-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+32-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+33    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+33-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+33-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+34    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+34-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+34-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+35    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+35-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+35-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+36    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+36-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+36-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+37    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+37-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+37-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+38    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+38-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+38-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+39    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+39-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+39-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+40    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+40-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+40-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\76d4332eea586e83f4b6e7d675653d20\ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+41    <!--
+42 io.flutter.app.FlutterApplication is an android.app.Application that
+43         calls FlutterMain.startInitialization(this); in its onCreate method.
+44         In most cases you can leave this as-is, but you if you want to provide
+45         additional functionality it is fine to subclass or reimplement
+46         FlutterApplication and put your custom class here.
+47    -->
+48    <application
+48-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:8:5-37:19
+49        android:name="com.example.postman2.Application"
+49-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:9:9-36
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.2.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\35f29bb1a578f0319e9c3e21730b6b49\core-1.2.0\AndroidManifest.xml:24:18-86
+51        android:debuggable="true"
+52        android:icon="@mipmap/ic_launcher"
+52-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:11:9-43
+53        android:label="Chat App" >
+53-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:10:9-33
+54        <activity
+54-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:12:9-27:20
+55            android:name="com.example.postman2.MainActivity"
+55-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:13:13-41
+56            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+56-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:16:13-163
+57            android:hardwareAccelerated="true"
+57-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:17:13-47
+58            android:launchMode="singleTop"
+58-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:14:13-43
+59            android:theme="@style/LaunchTheme"
+59-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:15:13-47
+60            android:windowSoftInputMode="adjustResize" >
+60-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:18:13-55
+61            <intent-filter>
+61-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:19:13-22:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:20:17-68
+62-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:20:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:21:17-76
+64-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:21:27-74
+65            </intent-filter>
+66            <intent-filter>
+66-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:23:13-26:29
+67                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+67-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:24:17-69
+67-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:24:25-66
+68
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:25:17-76
+69-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:25:27-73
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:28:9-31:71
+73            android:name="com.yalantis.ucrop.UCropActivity"
+73-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:29:13-60
+74            android:screenOrientation="portrait"
+74-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:30:13-49
+75            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+75-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:31:13-69
+76        <!--
+77             Don't delete the meta-data below.
+78             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+79        -->
+80        <meta-data
+80-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:34:9-36:33
+81            android:name="flutterEmbedding"
+81-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:35:13-44
+82            android:value="2" />
+82-->C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\AndroidManifest.xml:36:13-30
+83
+84        <service
+84-->[:firebase_storage] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+85            android:name="com.google.firebase.components.ComponentDiscoveryService"
+85-->[:firebase_storage] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+86            android:directBootAware="true"
+86-->[com.google.firebase:firebase-common:19.3.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\8fd4343af85c9c6d30ae33aa44df154f\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+87            android:exported="false" >
+87-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\acc214e897aff56ee6da666a2b48ac84\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:37:13-37
+88            <meta-data
+88-->[:firebase_storage] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+89-->[:firebase_storage] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[:firebase_storage] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+91            <meta-data
+91-->[:cloud_firestore] C:\Users\huzze\AndroidStudioProjects\postman2\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+92-->[:cloud_firestore] C:\Users\huzze\AndroidStudioProjects\postman2\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:cloud_firestore] C:\Users\huzze\AndroidStudioProjects\postman2\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+94            <meta-data
+94-->[:firebase_core] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+95-->[:firebase_core] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[:firebase_core] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+97            <meta-data
+97-->[:firebase_messaging] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-16:85
+98                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+98-->[:firebase_messaging] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-127
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[:firebase_messaging] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\acc214e897aff56ee6da666a2b48ac84\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:38:13-40:85
+101                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+101-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\acc214e897aff56ee6da666a2b48ac84\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:39:17-119
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\acc214e897aff56ee6da666a2b48ac84\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:40:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\34a0e5d53ae61e749f2724a77a7fa61b\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+104                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+104-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\34a0e5d53ae61e749f2724a77a7fa61b\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\34a0e5d53ae61e749f2724a77a7fa61b\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+107                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+107-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\865621413c26afa4682970c97febf164\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+110                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+110-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\865621413c26afa4682970c97febf164\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\865621413c26afa4682970c97febf164\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\e7bae9ce1dcccb1d7878a150813e483d\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+113                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+113-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\e7bae9ce1dcccb1d7878a150813e483d\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\e7bae9ce1dcccb1d7878a150813e483d\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+115        </service>
+116
+117        <provider
+117-->[:image_picker] C:\Users\huzze\AndroidStudioProjects\postman2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+118            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+118-->[:image_picker] C:\Users\huzze\AndroidStudioProjects\postman2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+119            android:authorities="com.example.postman2.flutter.image_provider"
+119-->[:image_picker] C:\Users\huzze\AndroidStudioProjects\postman2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+120            android:exported="false"
+120-->[:image_picker] C:\Users\huzze\AndroidStudioProjects\postman2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+121            android:grantUriPermissions="true" >
+121-->[:image_picker] C:\Users\huzze\AndroidStudioProjects\postman2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+122            <meta-data
+122-->[:image_picker] C:\Users\huzze\AndroidStudioProjects\postman2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+123                android:name="android.support.FILE_PROVIDER_PATHS"
+123-->[:image_picker] C:\Users\huzze\AndroidStudioProjects\postman2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+124                android:resource="@xml/flutter_image_picker_file_paths" />
+124-->[:image_picker] C:\Users\huzze\AndroidStudioProjects\postman2\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+125        </provider>
+126
+127        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+127-->[:firebase_messaging] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+127-->[:firebase_messaging] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-101
+128            <intent-filter>
+128-->[:firebase_messaging] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+129                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+129-->[:firebase_messaging] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+129-->[:firebase_messaging] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+130            </intent-filter>
+131        </service>
+132
+133        <activity
+133-->[:url_launcher] C:\Users\huzze\AndroidStudioProjects\postman2\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+134            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+134-->[:url_launcher] C:\Users\huzze\AndroidStudioProjects\postman2\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+135            android:exported="false"
+135-->[:url_launcher] C:\Users\huzze\AndroidStudioProjects\postman2\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+136            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+136-->[:url_launcher] C:\Users\huzze\AndroidStudioProjects\postman2\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+137        <!--
+138             FirebaseMessagingService performs security checks at runtime,
+139             but set to not exported to explicitly avoid allowing another app to call it.
+140        -->
+141        <service
+141-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\acc214e897aff56ee6da666a2b48ac84\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:28:9-34:19
+142            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+142-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\acc214e897aff56ee6da666a2b48ac84\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:29:13-82
+143            android:exported="false" >
+143-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\acc214e897aff56ee6da666a2b48ac84\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:30:13-37
+144            <intent-filter android:priority="-500" >
+144-->[:firebase_messaging] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+145                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+145-->[:firebase_messaging] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+145-->[:firebase_messaging] C:\Users\huzze\AndroidStudioProjects\postman2\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+146            </intent-filter>
+147        </service>
+148
+149        <receiver
+149-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+150            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+150-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+151            android:exported="true"
+151-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+152            android:permission="com.google.android.c2dm.permission.SEND" >
+152-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+153            <intent-filter>
+153-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+154                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+154-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+154-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+155            </intent-filter>
+156        </receiver>
+157
+158        <provider
+158-->[com.google.firebase:firebase-common:19.3.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\8fd4343af85c9c6d30ae33aa44df154f\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+159            android:name="com.google.firebase.provider.FirebaseInitProvider"
+159-->[com.google.firebase:firebase-common:19.3.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\8fd4343af85c9c6d30ae33aa44df154f\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+160            android:authorities="com.example.postman2.firebaseinitprovider"
+160-->[com.google.firebase:firebase-common:19.3.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\8fd4343af85c9c6d30ae33aa44df154f\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+161            android:exported="false"
+161-->[com.google.firebase:firebase-common:19.3.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\8fd4343af85c9c6d30ae33aa44df154f\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+162            android:initOrder="100" />
+162-->[com.google.firebase:firebase-common:19.3.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\8fd4343af85c9c6d30ae33aa44df154f\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+163
+164        <activity
+164-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\4c0b774c09d5393feb013f0dbe753af3\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+165            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+165-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\4c0b774c09d5393feb013f0dbe753af3\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+166            android:exported="false"
+166-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\4c0b774c09d5393feb013f0dbe753af3\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+167            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+167-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\4c0b774c09d5393feb013f0dbe753af3\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+168
+169        <meta-data
+169-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\1ba259ec7c7c64c9a33945c0a0d30fae\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+170            android:name="com.google.android.gms.version"
+170-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\1ba259ec7c7c64c9a33945c0a0d30fae\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+171            android:value="@integer/google_play_services_version" />
+171-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\1ba259ec7c7c64c9a33945c0a0d30fae\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+172
+173        <service
+173-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\96b48096cc6858db55ff0b9cadbfdd91\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+174            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+174-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\96b48096cc6858db55ff0b9cadbfdd91\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+175            android:exported="false" >
+175-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\96b48096cc6858db55ff0b9cadbfdd91\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+176            <meta-data
+176-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\96b48096cc6858db55ff0b9cadbfdd91\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+177                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+177-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\96b48096cc6858db55ff0b9cadbfdd91\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+178                android:value="cct" />
+178-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\96b48096cc6858db55ff0b9cadbfdd91\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+179        </service>
+180        <service
+180-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\34066712d6449b2703aaeeeb718baf20\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+181            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+181-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\34066712d6449b2703aaeeeb718baf20\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+182            android:exported="false"
+182-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\34066712d6449b2703aaeeeb718baf20\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+183            android:permission="android.permission.BIND_JOB_SERVICE" >
+183-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\34066712d6449b2703aaeeeb718baf20\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+184        </service>
+185
+186        <receiver
+186-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\34066712d6449b2703aaeeeb718baf20\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+187            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+187-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\34066712d6449b2703aaeeeb718baf20\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+188            android:exported="false" />
+188-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\huzze\.gradle\caches\transforms-2\files-2.1\34066712d6449b2703aaeeeb718baf20\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+189    </application>
+190
+191</manifest>

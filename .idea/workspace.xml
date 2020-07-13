@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edfdf5d9-3d8d-48d0-acc5-18b3fc1d0223" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eYKIJmBKtH7YcbL26zBCUoHKUq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/app/src/main/res/drawable" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\huzze\AndroidStudioProjects\postman2\android\app\src\main\res\drawable" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edfdf5d9-3d8d-48d0-acc5-18b3fc1d0223" name="Default Changelist" comment="" />
+      <created>1594493004627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594493004627</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1476" height="146" key="GridCell.Tab.0.bottom" timestamp="1594610958313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1476" height="146" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594610958313" />
+    <state width="1476" height="146" key="GridCell.Tab.0.center" timestamp="1594610958313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1476" height="146" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594610958313" />
+    <state width="1476" height="146" key="GridCell.Tab.0.left" timestamp="1594610958313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1476" height="146" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594610958313" />
+    <state width="1476" height="146" key="GridCell.Tab.0.right" timestamp="1594610958313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1476" height="146" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594610958313" />
+    <state x="100" y="100" width="1336" height="624" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1594606737179">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="100" width="1336" height="624" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1594606737179" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1594604641702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594604641702" />
+  </component>
+</project>

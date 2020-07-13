@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "105920618944",
+    "firebase_url": "https://postman-998dc.firebaseio.com",
+    "project_id": "postman-998dc",
+    "storage_bucket": "postman-998dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105920618944:android:377497342a74ea4a25e825",
+        "android_client_info": {
+          "package_name": "com.example.postman2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105920618944-gto8vd6vk1pc3r4mej8krngs382i382d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlxAonsFJ5PnFyNLPZ3CuVcQPfK4-2Yls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105920618944-gto8vd6vk1pc3r4mej8krngs382i382d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
